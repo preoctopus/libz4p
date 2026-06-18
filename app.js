@@ -506,14 +506,14 @@ function updateDashboardMetrics(baseline, proposed, multiplier) {
         emissionsCard.style.border = "";
         emissionsCard.style.background = "";
     } else if (activeStage === 2) {
-        emissionsCard.style.border = "1px solid rgba(16, 185, 129, 0.2)";
-        emissionsCard.style.background = "linear-gradient(135deg, rgba(16, 185, 129, 0.05) 0%, rgba(59, 130, 246, 0.05) 100%)";
+        emissionsCard.style.border = "1px solid rgba(121, 202, 183, 0.35)";
+        emissionsCard.style.background = "linear-gradient(135deg, rgba(121, 202, 183, 0.08) 0%, rgba(137, 112, 178, 0.08) 100%)";
     } else if (activeStage === 3) {
-        emissionsCard.style.border = "1px solid rgba(16, 185, 129, 0.4)";
-        emissionsCard.style.background = "linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(59, 130, 246, 0.1) 100%)";
+        emissionsCard.style.border = "1px solid rgba(121, 202, 183, 0.55)";
+        emissionsCard.style.background = "linear-gradient(135deg, rgba(121, 202, 183, 0.12) 0%, rgba(137, 112, 178, 0.12) 100%)";
     } else {
-        emissionsCard.style.border = "1px solid rgba(10, 200, 150, 0.6)";
-        emissionsCard.style.background = "linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(59, 130, 246, 0.15) 100%)";
+        emissionsCard.style.border = "1px solid rgba(121, 202, 183, 0.75)";
+        emissionsCard.style.background = "linear-gradient(135deg, rgba(121, 202, 183, 0.18) 0%, rgba(137, 112, 178, 0.18) 100%)";
     }
 
     // Generate Advocacy template letter
